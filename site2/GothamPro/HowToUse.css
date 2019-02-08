@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'GothamPro';
+  src: url('GothamProRegular.eot');
+  src: url('GothamProRegular.eot?#iefix') format('embedded-opentype'),
+       url('GothamProRegular.woff') format('woff'),
+       url('GothamProRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('GothamProLight.eot');
+  src: url('GothamProLight.eot?#iefix') format('embedded-opentype'),
+       url('GothamProLight.woff') format('woff'),
+       url('GothamProLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('GothamProMedium.eot');
+  src: url('GothamProMedium.eot?#iefix') format('embedded-opentype'),
+       url('GothamProMedium.woff') format('woff'),
+       url('GothamProMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('GothamProBold.eot');
+  src: url('GothamProBold.eot?#iefix') format('embedded-opentype'),
+       url('GothamProBold.woff') format('woff'),
+       url('GothamProBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('GothamProBlack.eot');
+  src: url('GothamProBlack.eot?#iefix') format('embedded-opentype'),
+       url('GothamProBlack.woff') format('woff'),
+       url('GothamProBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+

@@ -1,0 +1,314 @@
+@font-face {
+  font-family: 'GothamPro';
+  src: url('GothamPro/GothamProRegular.eot');
+  src: url('GothamPro/GothamProRegular.eot?#iefix') format('embedded-opentype'),
+       url('GothamPro/GothamProRegular.woff') format('woff'),
+       url('GothamPro/GothamProRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('GothamPro/GothamProLight.eot');
+  src: url('GothamPro/GothamProLight.eot?#iefix') format('embedded-opentype'),
+       url('GothamPro/GothamProLight.woff') format('woff'),
+       url('GothamPro/GothamProLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('GothamPro/GothamProMedium.eot');
+  src: url('GothamPro/GothamProMedium.eot?#iefix') format('embedded-opentype'),
+       url('GothamPro/GothamProMedium.woff') format('woff'),
+       url('GothamPro/GothamProMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('GothamPro/GothamProBold.eot');
+  src: url('GothamPro/GothamProBold.eot?#iefix') format('embedded-opentype'),
+       url('GothamPro/GothamProBold.woff') format('woff'),
+       url('GothamPro/GothamProBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamPro';
+  src: url('GothamPro/GothamProBlack.eot');
+  src: url('GothamPro/GothamProBlack.eot?#iefix') format('embedded-opentype'),
+       url('GothamPro/GothamProBlack.woff') format('woff'),
+       url('GothamPro/GothamProBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+*
+{
+margin: 0px;
+padding: 0px;
+font-family: GothamPro;
+}
+a, a:visited {
+color: white;
+}
+
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #f8cd00;
+}
+
+
+hr {
+	color: #cccccc;
+}
+
+
+.buttond {
+	text-align:center;
+	cursor: pointer; 
+	font-size:12px;  
+	text-decoration: none; 
+	padding:16px 49px; 
+	margin-top: 49px; 
+	margin-bottom: 28px; 
+	margin-right: 140px;
+	color:#ffffff; 
+	background-color:#000000; 
+	border-radius:0px; 
+	border: 0px solid #000000;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.clearfix:after{
+	content:"";
+	display:table-cell;
+	clear:both;
+}
+
+.header {
+	background: #25211d url(images/header.png) no-repeat center center;
+	background-size: cover;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1170px;
+	
+}
+
+body {
+	background: white url(images/body.png) repeat-x;
+	color: #333333;	
+}
+
+.up_contacts {
+	padding-top: 35px; 
+}
+
+.telephones {
+	color: #f8cd00;
+     float: right; 
+     font-size: 18px;
+     width: 199px;
+     text-align: left;
+	font-weight: 900;
+	margin-right: 30px;
+}
+.logo {
+	padding-top: 100px;
+	float: left;
+}
+
+.ipoteka {
+	font-size: 70px;
+	color: white;
+	font-family: GothamPro;
+	margin-top: 71px;  
+	font-weight:300;
+}
+.cities {
+	color: #f8cd00;
+	font-size: 20px;
+	margin-top: 38px;
+	font-weight:300;
+}
+.kartinka {
+	position:absolute;
+	top:525px;
+	padding-left: 20px;
+}
+
+.consultation {
+	background: url(images/rectangle.png) no-repeat;
+	padding: 16px 23px 16px 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: white;
+	float: right;
+	font-weight:700;
+	margin-right: 339px;
+	width: 252px;
+}
+
+.consultation_href:hover {
+	color: white;
+}
+.consultation:hover {
+	background: url(images/rectangle_hover.png) no-repeat;
+	padding: 16px 23px 16px 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+	float: right;
+	font-weight:700;
+	margin-right: 339px;
+	width: 252px;
+}
+
+.figure {
+	position: absolute;
+	margin-top: 175px;
+	font-weight:900;
+	right: 0px;
+}
+
+.menu {
+	color: white;
+	font-weight:300;
+	font-size: 14px;
+	margin-top: 112px;
+}
+.menu1 {
+		width:210px; 
+        float:left; 
+        text-align:left;
+		padding-right: 90px;
+		padding-bottom: 45px;
+}
+.menu2 {
+		width:200px; 
+        float:left; 
+        text-align:left;
+		padding-right: 90px;
+		padding-bottom: 45px;
+		margin-top: 40px;
+		background:  url() no-repeat;
+}
+.strelka {
+	background: url(images/strelka.png) no-repeat;
+	height: 20px;
+	float: right;
+	width: 18px;
+	padding-left: 32px; 
+	margin-top: 17px; 
+}
+.menu_text {
+	background: url(images/palka.png) no-repeat;
+	height: 57px;
+	float: left;
+	padding-left: 19px; 
+	padding-top: 15px;
+}
+.menu_text_yellow {
+	background: url(images/palka_yellow.png) no-repeat;
+	height: 85px;
+	float: left;
+	padding-left: 19px; 
+	padding-top: 6px;
+	margin-top: 13px;
+}
+
+.left {
+	width: 633px;
+    float:left; 
+    padding-bottom: 50px;
+}
+.banks-fon {
+	background: #ffffff url(images/banks_fon.png) no-repeat;
+	height:50px;
+	font-size: 28px;
+	margin-top: 36px;
+	padding-top: 57px;
+	font-weight:300;
+	padding-left: 36px;
+}
+
+
+.banks1 {
+        width:300px; 
+        float:left; 
+		padding-bottom: 30px;
+		padding-top: 30px;
+}
+.banks2 {
+        width:155px; 
+        float:left; 
+        text-align:center;
+		padding-top: 45px;
+		padding-bottom: 30px;
+		font-size: 18px;
+		font-weight:300;
+}
+.banks3 {
+        width:178px; 
+        float:left; 
+        text-align:center;
+		padding-top: 45px;
+		padding-bottom: 30px;
+		font-size: 16px;
+		font-weight:300;
+}
+
+
+
+.right {
+	float: right;
+	width:441px; 
+    float:right; 
+    text-align:center;
+    padding-top: 50px;
+}
+.right h1{
+	border: 0px solid #f8cd00;
+	color: black;
+	background: #f8cd00;
+	font-size: 16px;
+	font-weight:700;
+	text-align: left;
+	padding: 23px 23px 23px 41px;
+}
+.polya {
+	background-color: #f2f2f2;
+}
+.forma {
+	padding: 0 53px 0 53px;
+}
+input[type="text"], input[type="email"] {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #c2c2c2;
+  outline: none;
+  margin: 0;
+  margin-top:10px;
+  width: 100%;
+  padding: 10px 10px;
+  background: #f2f2f2;
+  color: #9a9a9a;
+}
+input[type="text"]:focus, input[type="email"]:focus {
+  box-shadow: inset 0 0 0 2px rgba(0,0,0,.2);
+}
